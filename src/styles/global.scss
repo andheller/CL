@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+// COLORS
+$theme-colors: (
+  "primary": #ef5e49,
+  "secondary": #6c757d,
+  "success": #28a745,
+  "danger": #ff4136,
+  "warning": #ffc107,
+  "info": #17a2b8,
+  "light": #f8f9fa,
+  "dark": #343a40,
+  "white": #ffffff,
+  "transparent": transparent,
+);
+
+// TEXT
+$font-family-sans-serif: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1rem;
+
+// BREAKPOINTS
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1505px,
+  xl: 1600px,
+);
+h1{
+  text-transform:uppercase;
+  letter-spacing: 3px;
+}
+:root {
+  --background: linear-gradient(150deg, #ec9f6d 15%, #05d5ff 70%, #a6ffcb 94%);
+  --first: #ef5e49;
+  --second: #f2d102;
+  --third: #4f40ff;
+  --fourth: #25ddf5;
+  --fifth: #f2d102;
+}
+
+#stripes {
+  width: 100%;
+  height: 35vw;
+  background: var(--background);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#stripes span:nth-child(1) {
+  grid-column: span 1;
+  background: var(--first);
+}
+
+#stripes span:nth-child(2) {
+  grid-column: span 2;
+  background: var(--second);
+}
+#stripes span:nth-child(2) {
+  grid-column: span 2;
+  background: var(--second);
+}
+#stripes span:nth-child(3) {
+  grid-column: span 2;
+  background: var(--third);
+}
+#stripes span:nth-child(4) {
+  grid-column: 6;
+  grid-row: 3;
+  background: var(--fourth);
+}
+#stripes span:nth-child(5) {
+  grid-column: span 2;
+  grid-row: 4;
+  background: var(--fifth);
+}
+#stripes {
+  width: 100%;
+  height: 35vw;
+  background: var(--background);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  transform: skewY(-12deg);
+  transform-origin: 0;
+  position:absolute;
+}
+
+
+// SEE DOCS FOR MORE:
+// https://bit.ly/2sgFMdb
+
+//Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+// IMPORT BOOTSTRAP
+@import "~bootstrap/scss/bootstrap";
+
+// IMPORT FONT AWESOME
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
+#__next {
+  // Full height of screen and flex so that we can push footer
+  // to the bottom even if content is shorter than screen
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // Push footer to the bottom of the screen
+  > .footer {
+    margin-top: auto;
+  }
+  // Prevent child elements from shrinking when content
+  // is taller than the screen (quirk of having flex parent)
+  > * {
+    flex-shrink: 0;
+  }
+}
