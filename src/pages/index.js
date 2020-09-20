@@ -33,7 +33,7 @@ function IndexPage(props) {
         subtitle=""
         buttonText="Get Started"
         buttonColor="primary"
-        image="https://raw.githubusercontent.com/andheller/wfpro/80e4864a826d69f42c944bae9c91e7ae6a5dc2bf/src/assets/undraw_heatmap_uyye.svg"
+        image="https://raw.githubusercontent.com/andheller/CL/80c470053ccf825bb24aabdd54701d61b76282ba/src/assets/undraw_Data_points_ubvs.svg"
         buttonOnClick={(e) => {
            {e.preventDefault(); window.artibotApi.trigger('bot:expand'); return false; }
         }}
