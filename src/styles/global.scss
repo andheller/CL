@@ -89,6 +89,15 @@ h1{
   transform-origin: 0;
   position:absolute;
 }
+@media (min-width: 1505px){
+.container, .container-sm, .container-md, .container-xl {
+    max-width: 1440px !important;
+}}
+
+button.artibot-launcher--1dqxp.artibot-launcher-bottom-right--2ziVn svg {
+  stroke: #fff !important;
+  fill: #fff !important;
+}
 
 
 // SEE DOCS FOR MORE:

@@ -44,7 +44,7 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        image="https://raw.githubusercontent.com/andheller/wfpro/80e4864a826d69f42c944bae9c91e7ae6a5dc2bf/src/assets/undraw_online_media_62jb.svg"
+        image="https://raw.githubusercontent.com/andheller/CL/dadf4858096f7ade15fea9df6101589a14f56e22/src/assets/undraw_google_analytics_a57d.svg"
       />
       <Benefits
         bg="white"
@@ -52,7 +52,7 @@ function IndexPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="We take care of the technical stuff, so you don’t have to worry about it."
+        title="We help make your data useful."
         subtitle=""
       />
       <CtaSection

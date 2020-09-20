@@ -39,7 +39,6 @@ function HeroSection(props) {
               {props.buttonText}
             </Button>
           </Col>
-
         </Row>
       </Container>
     </Section>

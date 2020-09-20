@@ -27,30 +27,30 @@ function Benefits(props) {
             imageRatio="4by3"
             items={[
               {
-                title: "Backups",
+                title: "Automation",
                 body:
-                  "When disaster strikes, we’ll be ready. We keep 90 days of backups as a standard and can do more on request.",
-                image: "https://raw.githubusercontent.com/andheller/wfpro/4dd44bc27022592e1b872d181b9cdfc67147634b/src/assets/undraw_cloud_files_wmo8.svg",
+                  "Don’t waste your employees’ valueable time. Automate the boring stuff.",
+                image: "https://raw.githubusercontent.com/andheller/CL/dadf4858096f7ade15fea9df6101589a14f56e22/src/assets/undraw_spreadsheet_69ax.svg",
               },
               {
-                title: "Support",
+                title: "Natural Language Processing",
                 body:
-                  "We are always here to help solve any (website) problem.",
-                image: "https://raw.githubusercontent.com/andheller/wfpro/80e4864a826d69f42c944bae9c91e7ae6a5dc2bf/src/assets/undraw_done_a34v.svg",
+                  "Discover your own treasure trove of historical text and spreadsheet data.",
+                image: "https://raw.githubusercontent.com/andheller/CL/dadf4858096f7ade15fea9df6101589a14f56e22/src/assets/undraw_file_analysis_8k9b.svg",
               },
               {
-                title: "Updates",
+                title: "Computer Vision",
                 body:
-                  "We keep your website secure, updated and free of  bugs.",
+                  "Images can hold a tremendous amount of valuable data and insights. ",
                 image:
-                  "https://raw.githubusercontent.com/andheller/wfpro/80e4864a826d69f42c944bae9c91e7ae6a5dc2bf/src/assets/undraw_website_builder_bxki.svg",
+                  "https://raw.githubusercontent.com/andheller/CL/dadf4858096f7ade15fea9df6101589a14f56e22/src/assets/undraw_Surveillance_re_8tkl.svg",
               },
               {
-                title: "Advice",
+                title: "Data Insights",
                 body:
-                  "We want you to get the most out of your website. We can answer any of your website questions. If we don't know the answer, we'll figure it out. ",
+                  "Use the data you have to drive business value.",
                 image:
-                  "https://raw.githubusercontent.com/andheller/wfpro/80e4864a826d69f42c944bae9c91e7ae6a5dc2bf/src/assets/undraw_browsing_urt9.svg",
+                  "https://raw.githubusercontent.com/andheller/CL/dadf4858096f7ade15fea9df6101589a14f56e22/src/assets/undraw_usability_testing_2xs4.svg",
               },
             ]}
           />

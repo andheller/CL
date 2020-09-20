@@ -30,21 +30,21 @@ function Steps(props) {
                   title: "Schedule a Key Value Analysis",
                   description:
                     "Find a time that works for you. Before our meeting, we get a little information from you so we can make the most of our time.",
-                  iconClass: "fas fa-comments",
+                  iconClass: "",
                   iconColor: "primary",
                 },
                 {
-                  title: "Prototype",
+                  title: "Development",
                   description:
-                    "We develop a prototype website with your feedback until you are more than satisfied.",
-                  iconClass: "fas fa-sitemap",
+                    "We develop a prototype solution with your feedback until you are more than satisfied. We aim to always provide 10x more value than we charge.",
+                  iconClass: "",
                   iconColor: "primary",
                 },
                 {
-                  title: "Launch",
+                  title: "Implementation",
                   description:
-                    "Liftoff! We work with you to launch your new site. We work to make sure your site stays updated and secure even after launch.",
-                  iconClass: "fas fa-space-shuttle",
+                    "Liftoff! We work with you to launch your new solution. We work to make sure everything stays updated and continues working even after launch.",
+                  iconClass: "",
                   iconColor: "primary",
                 },
               ]}
